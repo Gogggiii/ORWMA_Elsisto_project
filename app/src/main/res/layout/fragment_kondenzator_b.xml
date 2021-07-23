@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KondenzatorB">
+
+    <ImageView
+        android:id="@+id/kondB"
+        android:src="@drawable/kond_b"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        />
+
+    <TextView
+        android:id="@+id/tw_kondB_title"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Ukoliko brojčani kod kondenzatora počinje sa točkom,
+ onda taj kod unesite ovdje:"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:layout_below="@id/kondB"
+        />
+
+    <EditText
+        android:id="@+id/et_kondB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unesite kod"
+        android:layout_below="@id/tw_kondB_title"
+        android:layout_marginHorizontal="130dp"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_kondB_result_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_kondB"
+        android:text="Kapacitet kondenzatora:"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginHorizontal="50dp"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_kondB_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_kondB_result_title"
+        android:text=""
+        android:gravity="center"
+        android:textSize="35dp"
+        android:layout_margin="30dp"
+        />
+</RelativeLayout>

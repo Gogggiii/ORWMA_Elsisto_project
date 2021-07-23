@@ -1,0 +1,2 @@
+rootProject.name = "Elsisto"
+include ':app'

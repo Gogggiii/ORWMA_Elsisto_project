@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resistor_5_Rings">
+
+    <TextView
+        android:id="@+id/tw_5bands_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Otpornik s 5 prstena"
+        android:layout_marginTop="20dp"
+        android:textSize="35dp"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/img_5bands"
+        android:layout_below="@id/tw_5bands_title"
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        android:src="@drawable/fiveband_resistor"
+        />
+
+    <TextView
+        android:id="@+id/tw_value_title"
+        android:layout_below="@+id/img_5bands"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vrijednost otpora:"
+        android:textSize="20dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tw_value_result"
+        android:layout_below="@+id/tw_value_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="50dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tw_fiveband_ring1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I."
+        android:textSize="25dp"
+        android:layout_below="@id/tw_value_result"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinner_fiveband_ring1"
+        android:layout_height="34dp"
+        android:layout_width="300dp"
+        android:layout_alignTop="@id/tw_fiveband_ring1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tw_fiveband_ring2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="II."
+        android:textSize="25dp"
+        android:layout_below="@id/tw_fiveband_ring1"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinner_fiveband_ring2"
+        android:layout_height="34dp"
+        android:layout_width="300dp"
+        android:layout_alignTop="@id/tw_fiveband_ring2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tw_fiveband_ring3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="III."
+        android:textSize="25dp"
+        android:layout_below="@id/tw_fiveband_ring2"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinner_fiveband_ring3"
+        android:layout_height="34dp"
+        android:layout_width="300dp"
+        android:layout_alignTop="@id/tw_fiveband_ring3"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tw_fiveband_ring4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IV."
+        android:textSize="25dp"
+        android:layout_below="@id/tw_fiveband_ring3"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinner_fiveband_ring4"
+        android:layout_height="34dp"
+        android:layout_width="300dp"
+        android:layout_alignTop="@id/tw_fiveband_ring4"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tw_fiveband_ring5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="V."
+        android:textSize="25dp"
+        android:layout_below="@id/tw_fiveband_ring4"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp" />
+
+    <Spinner
+        android:id="@+id/spinner_fiveband_ring5"
+        android:layout_height="34dp"
+        android:layout_width="300dp"
+        android:layout_alignTop="@id/tw_fiveband_ring5"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        />
+</RelativeLayout>

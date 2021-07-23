@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <array name="all_colors">
+        <item>#000000</item>
+        <item>#653332</item>
+        <item>#FD0200</item>
+        <item>#FE6601</item>
+        <item>#FCFE05</item>
+        <item>#2FCE36</item>
+        <item>#6A64FF</item>
+        <item>#D065F3</item>
+        <item>#939391</item>
+        <item>#FFFFFF</item>
+        <item>#F1982D</item>
+        <item>#CCCCCC</item>
+    </array>
+
+    <color name="Black_ring">#000000</color>
+    <color name="Brown_ring">#653332</color>
+    <color name="Red_ring">#FD0200</color>
+    <color name="Orange_ring">#FE6601</color>
+    <color name="Yellow_ring">#FCFE05</color>
+    <color name="Green_ring">#2FCE36</color>
+    <color name="Blue_ring">#6A64FF</color>
+    <color name="Violet_ring">#D065F3</color>
+    <color name="Grey_ring">#939391</color>
+    <color name="White_ring">#FFFFFF</color>
+    <color name="Gold_ring">#F1982D</color>
+    <color name="Silver_ring">#CCCCCC</color>
+v
+</resources>
